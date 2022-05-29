@@ -1,0 +1,96 @@
+body {
+  background-image: url(background.jpg);
+  background-size: 100%;
+  color: white;
+}
+
+.container{
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 65%;
+  }
+
+.logo{
+  width: 18%;
+  margin-top: 6%;
+  padding-left: 40%;
+  }
+
+.logo-text{
+  margin-bottom: 0.5%;
+  font-family: quicksand, verdana;
+  text-align: center;
+  color: #00DD00;
+}
+
+.banner {
+  display: flex;
+  padding: 0.5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #00DD00;
+  align-items: center;
+  justify-content: center;
+  }
+
+.button{
+  font-family: quicksand, verdana;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0.8%;
+}
+
+.main{
+  font-family: quicksand, verdana;
+  padding: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subject{
+  font-weight: bold;
+  font-size: 135%;
+}
+
+.monopattino2{
+  padding-top: 2%;
+}
+
+.monopattino3{
+  padding-top: 2%;
+  padding-bottom: 10%;
+}
+
+.distance:before{
+  content: "\21A6";
+}
+
+.gino-battery, .mike-battery, .fede-battery{
+  margin-top: 0.5%;
+}
+
+.gino-battery{
+  padding: 1.5%;
+  width: 38%;
+  background-color: #F0A150;
+  border-radius: 5px;
+}
+
+.mike-battery{
+  padding: 1.5%;
+  width: 60%;
+  background-color: #00DD00;
+  border-radius: 5px;
+}
+.fede-battery{
+  padding: 1.5%;
+  width: 15%;
+  background-color: #B22222;
+  border-radius: 5px;
+}
